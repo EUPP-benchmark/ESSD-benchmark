@@ -8,12 +8,12 @@ This includes the codes to construct the input dataset, to compute the postproce
 
 To install all the codes as submodules in one shot, first clone the present repository:
 
-  git clone https://github.com/EUPP-benchmark/ESSD-benchmark.git
+    git clone https://github.com/EUPP-benchmark/ESSD-benchmark.git
   
 Then run the following commands:
 
-  git submodule init
-  git submodule update --remote
+    git submodule init
+    git submodule update --remote
 
 This will fetch all the codes into the subdirectories, and you are ready to go.
 

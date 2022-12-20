@@ -30,28 +30,20 @@ The codes used to produces the benchmark output data are available on GitHub. Ea
 
 The methods available are:
 
- - ANET: NN post processing method using ensemble member encoders and dynamic attention
- 	Repository: https://github.com/EUPP-benchmark/ESSD-ANET
+ - [ANET](https://github.com/EUPP-benchmark/ESSD-ANET): NN post processing method using ensemble member encoders and dynamic attention
  	
- - AR-EMOS: EMOS with heteroscedastic autoregressive error adjustments
- 	Repository: https://github.com/EUPP-benchmark/ESSD-AR-EMOS
+ - [AR-EMOS](https://github.com/EUPP-benchmark/ESSD-AR-EMOS): EMOS with heteroscedastic autoregressive error adjustments
  	
- - ASRE: Accounting for systematic and representativeness errors
- 	Repository: https://github.com/EUPP-benchmark/ESSD-ASRE
+ - [ASRE](https://github.com/EUPP-benchmark/ESSD-ASRE): Accounting for systematic and representativeness errors
  	
- - DRN: Distributional regression network
- 	Repository: https://github.com/EUPP-benchmark/ESSD-DRN
+ - [DRN](https://github.com/EUPP-benchmark/ESSD-DRN): Distributional regression network
  	
- - DVQR: D-vine copula based postprocessing
- 	Repository: https://github.com/EUPP-benchmark/ESSD-D-Vine-Copula
+ - [DVQR](https://github.com/EUPP-benchmark/ESSD-D-Vine-Copula): D-vine copula based postprocessing
  	
- - EMOS: Ensemble model output statistics
- 	Repository: https://github.com/EUPP-benchmark/ESSD-EMOS
+ - [EMOS](https://github.com/EUPP-benchmark/ESSD-EMOS): Ensemble model output statistics
  	
- - RC: Reliability Calibration
- 	Repository: https://github.com/EUPP-benchmark/ESSD-reliability-calibration
+ - [RC](https://github.com/EUPP-benchmark/ESSD-reliability-calibration): Reliability Calibration
  	
- - MBM: Member-By-Member postprocessing
- 	Repository: https://github.com/EUPP-benchmark/ESSD-mbm
+ - [MBM](https://github.com/EUPP-benchmark/ESSD-mbm): Member-By-Member postprocessing
     
     

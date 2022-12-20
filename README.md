@@ -21,7 +21,7 @@ This will fetch all the codes into the subdirectories, and you are then ready to
 
 ## Datasets (`./datasets` directory)
 
-The codes to download the ESSD benchmark dataset at https://github.com/EUPP-benchmark/ESSD-benchmark-datasets.git .
+The codes to download the ESSD benchmark dataset at https://github.com/EUPP-benchmark/ESSD-benchmark-datasets .
 First download this dataset to be able to proceed with the other codes.
 
 ## Postprocessing codes (`./codes` directory)

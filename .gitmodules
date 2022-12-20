@@ -1,0 +1,3 @@
+[submodule "codes/ESSD-mbm"]
+	path = codes/ESSD-mbm
+	url = https://github.com/EUPP-benchmark/ESSD-mbm.git

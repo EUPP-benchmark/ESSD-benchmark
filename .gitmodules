@@ -22,3 +22,6 @@
 [submodule "codes/ESSD-ANET"]
 	path = codes/ESSD-ANET
 	url = https://github.com/EUPP-benchmark/ESSD-ANET.git
+[submodule "datasets/ESSD-benchmark-datasets"]
+	path = datasets/ESSD-benchmark-datasets
+	url = https://github.com/EUPP-benchmark/ESSD-benchmark-datasets.git

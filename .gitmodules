@@ -10,3 +10,6 @@
 [submodule "codes/ESSD-DVQR"]
 	path = codes/ESSD-DVQR
 	url = https://github.com/EUPP-benchmark/ESSD-DVQR.git
+[submodule "codes/ESSD-ASRE"]
+	path = codes/ESSD-ASRE
+	url = https://github.com/EUPP-benchmark/ESSD-ASRE.git

@@ -4,3 +4,6 @@
 [submodule "codes/ESSD-reliability-calibration"]
 	path = codes/ESSD-reliability-calibration
 	url = https://github.com/EUPP-benchmark/ESSD-reliability-calibration.git
+[submodule "codes/ESSD-DRN"]
+	path = codes/ESSD-DRN
+	url = https://github.com/EUPP-benchmark/ESSD-DRN.git

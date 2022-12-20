@@ -13,3 +13,6 @@
 [submodule "codes/ESSD-ASRE"]
 	path = codes/ESSD-ASRE
 	url = https://github.com/EUPP-benchmark/ESSD-ASRE.git
+[submodule "codes/ESSD-EMOS"]
+	path = codes/ESSD-EMOS
+	url = https://github.com/EUPP-benchmark/ESSD-EMOS.git

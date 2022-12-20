@@ -19,3 +19,6 @@
 [submodule "codes/ESSD-AR-EMOS"]
 	path = codes/ESSD-AR-EMOS
 	url = https://github.com/EUPP-benchmark/ESSD-AR-EMOS.git
+[submodule "codes/ESSD-ANET"]
+	path = codes/ESSD-ANET
+	url = https://github.com/EUPP-benchmark/ESSD-ANET.git

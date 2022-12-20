@@ -1,2 +1,4 @@
-# ESSD-benchmark-codes
-Central point to gather the various code repositories for the ESSD benchmark
+# ESSD-benchmark
+Central point to gather the code repositories and assets of the ESSD benchmark
+
+

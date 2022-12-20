@@ -1,3 +1,6 @@
 [submodule "codes/ESSD-mbm"]
 	path = codes/ESSD-mbm
 	url = https://github.com/EUPP-benchmark/ESSD-mbm.git
+[submodule "codes/ESSD-reliability-calibration"]
+	path = codes/ESSD-reliability-calibration
+	url = https://github.com/EUPP-benchmark/ESSD-reliability-calibration.git

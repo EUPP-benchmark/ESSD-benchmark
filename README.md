@@ -2,9 +2,11 @@
 
 Central point to gather the code repositories and assets of the ESSD postprocessing benchmark provided as supplementary material with:
 
-    ...: The EUPPBench postprocessing benchmark dataset v1.0, ...
+* ...: The EUPPBench postprocessing benchmark dataset v1.0, ...
 
-This includes the codes to construct the input dataset, to compute the postprocessing outputs and the verification scores.
+**Please cite this article if you use (a part of) this code for a publication.**
+
+This repository includes the codes to construct the input dataset, to compute the postprocessing outputs and the verification scores.
 
 ## Installation
 

@@ -25,3 +25,6 @@
 [submodule "datasets/ESSD-benchmark-datasets"]
 	path = datasets/ESSD-benchmark-datasets
 	url = https://github.com/EUPP-benchmark/ESSD-benchmark-datasets.git
+[submodule "verification/ESSD-Verification"]
+	path = verification/ESSD-Verification
+	url = https://github.com/EUPP-benchmark/ESSD-Verification.git

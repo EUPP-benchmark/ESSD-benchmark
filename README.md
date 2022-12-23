@@ -48,6 +48,6 @@ The methods available are:
  	
  - [MBM](https://github.com/EUPP-benchmark/ESSD-mbm): Member-By-Member postprocessing
     
-## Verification
+## Verification (`./verification` directory)
 
-TODO
+The codes used to verify benchmark forecasts output data are available on https://github.com/EUPP-benchmark/ESSD-Verification

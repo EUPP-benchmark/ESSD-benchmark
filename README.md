@@ -17,7 +17,7 @@ To install all the codes as submodules in one shot, first clone the present repo
 Then run the following commands:
 
     git submodule init
-    git submodule update --remote
+    git submodule update
 
 This will fetch all the codes into the subdirectories, and you are then ready to go.
 

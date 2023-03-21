@@ -1,5 +1,4 @@
 # Cloning the general repo
-git clone https://github.com/EUPP-benchmark/ESSD-benchmark.git
 git submodule init
 git submodule update
 

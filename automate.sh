@@ -43,4 +43,12 @@ python train.py ../../data/
 python generate.py ../../data/ `ls -d Model_*`
 echo "ANET method done !"
 
+# 3 - DRN (done with the MBM env)
+echo "Postprocessing with the DRN method"
+cd ../ESSD-DRN
+conda install pyarrow -c conda-forge -y
+ln -s ../../data EUPPdata
+cd data-preprocess
+
+
 

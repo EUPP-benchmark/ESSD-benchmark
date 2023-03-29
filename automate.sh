@@ -17,7 +17,7 @@ cd codes/ESSD-mbm/
 git submodule init
 git submodule update
 cd pythie
-git checkout 3c307d696d5918f06911729603eba90293029fa9 
+git checkout 21a29a9dc91f1bcd6b4f75caf0d4dbae4a375303 
 cd ..
 conda env create -f environment.yml
 conda activate ESSD-mbm

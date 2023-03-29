@@ -4,7 +4,7 @@ git submodule update
 
 # creating the dataset
 cd datasets/ESSD-benchmark-datasets/
-conda env create -f environment.yml
+conda env create -f environment.yml -y
 bash -i download_ESSD_dataset.sh
 cd ../..
 mkdir data
@@ -36,10 +36,11 @@ python ASRE_with_local_bias_correction.py
 echo "ASRE method done !"
 
 # 3 - ANET (done with the MBM env)
-echo "Postprocessing with the ASRE method"
+echo "Postprocessing with the ANET method"
 cd ../ESSD-ANET
 conda install pytorch -c conda-forge -y
 python train.py ../../data/
 python generate.py ../../data/ `ls -d Model_*`
+echo "ANET method done !"
 
 

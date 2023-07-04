@@ -44,7 +44,7 @@ python train.py ../../data/
 python generate.py ../../data/ `ls -d Model_*`
 echo "ANET method done !"
 
-# 3 - DRN (done with the MBM env)
+# 4 - DRN
 echo "Postprocessing with the DRN method"
 cd ../ESSD-DRN
 mkdir data-feather
@@ -68,4 +68,16 @@ Rscript generate_fcst.R
 python feather_to_netCDF.py
 cd ..
 echo "DRN method done !"
+
+# 5 - EMOS (done with the DRN env)
+echo "Postprocessing with the EMOS method"
+cd ../ESSD-EMOS
+ln -s ../../data data
+sed -i 's/\/path\/to\/data\//\.\//g' EMOS.r
+sed -i 's/\/path\/to\//\.\//g' write.netcdf.r
+mkdir fc
+Rscript install.r
+Rscript EMOS.r
+Rscript write.netcdf.r
+echo "EMOS method done !"
 

@@ -81,3 +81,28 @@ Rscript EMOS.r
 Rscript write.netcdf.r
 echo "EMOS method done !"
 
+# 6 - DVQR (done with the DRN env)
+echo "Postprocessing with the EMOS method"
+cd ../ESSD-DVQR
+ln -s ../../data data
+sed -i 's/~\/Desktop\/benchmarkdata_new\//\.\//g' benchmarkdata.R
+sed -i 's/~\/Desktop\/benchmarkdata_new/\.\/data\//g' benchmarkdata.R
+#sed -i 's/\/path\/to\//\.\//g' write.netcdf.r
+#mkdir fc
+#Rscript install.r
+#Rscript EMOS.r
+#Rscript write.netcdf.r
+echo "EMOS method done !"
+
+# 7 - AR-EMOS (done with the DRN env)
+echo "Postprocessing with the EMOS method"
+cd ../ESSD-AR-EMOS
+#ln -s ../../data data
+#sed -i 's/\/path\/to\/data\//\.\//g' EMOS.r
+#sed -i 's/\/path\/to\//\.\//g' write.netcdf.r
+#mkdir fc
+#Rscript install.r
+#Rscript EMOS.r
+#Rscript write.netcdf.r
+echo "EMOS method done !"
+

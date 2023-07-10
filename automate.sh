@@ -85,17 +85,8 @@ echo "EMOS method done !"
 echo "Postprocessing with the DVQR method"
 cd ../ESSD-DVQR
 ln -s ../../data data
-sed -i 's/~\/Desktop\/benchmarkdata_new\//\.\//g' benchmarkdata.R
-sed -i 's/~\/Desktop\/benchmarkdata_new/\.\/data\//g' benchmarkdata.R
-tail -n +3 dvine_pp.R > dvine_pp.tmp.R
-head -n 10 dvine_pp.tmp.R > dvine_pp.R
-tail -n +16 dvine_pp.tmp.R >> dvine_pp.R
-rm -f dvine_pp.tmp.R
-sed -i 's/\/home\/jobst\/benchmark\/results/\.\/data/g' dvine_pp.R
-sed -i 's/\/home\/jobst\/benchmark/\.\/data/g' dvine_pp.R
-#mkdir fc
-#Rscript install.r
-#Rscript EMOS.r
+Rscript install.r
+Rscript dvine_pp.R
 #Rscript write.netcdf.r
 echo "DVQR method done !"
 
